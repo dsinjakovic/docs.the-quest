@@ -7,3 +7,5 @@ build:
   jobs:
     post_install:
       - echo ${testitest}
+sphinx:
+  fail_on_warning: true
