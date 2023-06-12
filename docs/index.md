@@ -1,15 +1,17 @@
 {!README.md!}
 
-# Welcome to Lumache's documentation!
+# Welcome to The Quest's documentation!
 
-**Lumache** (/lu\'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients. It pulls data from the
-[Open Food Facts database](https://world.openfoodfacts.org/) and offers
-a *simple* and *intuitive* API.
-
-Check out the [usage](usage) section for further information, including how to [install](usage#installation) the project.
+**The Quest** is a game trying to simulate a day to day life in a fantasy setting with a diverse ecosystem and complex civilizations for player to interact with.
+The game takes inspiration from some amazing games such as: Project Zomboid, Legend of Zelda: Breath of the Wild, Dwarf Fortress. 
 
 !!! note
+    I'll keep updating the documentation with relavent information as they come up. 
 
-    This project is under active development.
-
+The documentation will cover following topcis: 
+[gameplay](gameplay)
+[combat](gameplay#combat)
+[ai](gameplay#ai)
+[ui](ui)
+[user experience](ux)
+[lore](lore)
