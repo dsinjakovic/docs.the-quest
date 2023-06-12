@@ -10,8 +10,8 @@ The game takes inspiration from some amazing games such as: Project Zomboid, Leg
 
 The documentation will cover following topcis: 
 - [Gameplay](gameplay)
-- [Combat](gameplay#combat)
-- [AI](gameplay#ai)
+- [Combat](gameplay#Combat)
+- [AI](gameplay#AI)
 - [UI](ui)
 - [User experience](ux)
 - [Lore](lore)
