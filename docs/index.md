@@ -16,4 +16,5 @@ The documentation will cover following topcis:
 + [UI](ui)
 + [User experience](ux)
 + [Lore](lore)
++ [Map](map)
 

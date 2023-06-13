@@ -11,6 +11,9 @@ to-do
 ### Player-Controller
 
 to-do
+#### Emotes
+
+**Whistling** - emote for whisling. Have a stat check if a player can whistle or not. Whistling should slowly fade out in-game music and replace it with the players whistle. Visually there would be a couple of notes above players head, indicating he's whistling. If this is done at night it can trigger [whistle event](lore#whistling-at-night)
 
 ## Items
 
@@ -50,6 +53,8 @@ Moral should be a simple equation (Expotential decay? Linearl decay) that determ
 ### Renown
 
 how well known a character is, for good or bad deeds
+
+### Perception
 
 ## Behavious
 
