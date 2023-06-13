@@ -3,6 +3,8 @@
 ## Events
 Random events are one of the things that make the game world feel full and exciting. When a player doesn't know what's awaiting him behind the corner it builds suspense and excitment, unsure of what will happen. Down bellow we'll go through couple of such events which will be backed by superstitions found in our own world and we'll do our best to explain them in detail. 
 
+Also reward players for these events
+
 ### Whistling at night
 Superstition originating from native american tribes who belive that whistiling at night invites skinwalkers or shapeshifters to whistle back. These shapeshifters are said to be able to read the minds and feed on the individuals fears. 
 
@@ -21,7 +23,7 @@ Checks (event can initiate):
 Scenario: Player is walking in the town at night and he uses his [whistle emote](./gameplay#emotes). After the emote is done, and before the music fades back in, the distant whistle is heard and a visual notes indicating that the whistle is coming from the dark. A [perceptive](gameplay#perception) player might even see two icey blue eyes staring in the dark. Since player is in lit up city and there isn't much dark, the skinwalker won't initiate the combat or show itself. However, if player walks towards the skinwalker, a low inhuman growl will be heard from the spot. And if player comes close enough, the skinwalker will jump out and ambush the player. 
 However, if player walks away from the skinwalker, over the next 3-5 days the frequency of whistles, which will intensifiy into inhuman growls as days pass will increass, until one day player will get attacked by the skinwalker. 
 
-### Dino hatchlings
+### Dino hatchlings (THE HATCHENING)
 **must be reformated**
 Because IF there were my children in the game, you could have a hatching day where once a year they come out of the dirt. My kiddos layed eggs like sea turtles where they pooped a billion of them underground then fricked off. So it would be freaking cute if you had an event where the towns people gathered around to watch the 8000000 baby kiddos dig out of the dirt and run to the forest
 
