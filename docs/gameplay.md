@@ -78,7 +78,8 @@ e.g: Determining if the npc will attack: First check npcs [moral](#Moral) (how a
 ### Agression initiation 
 **Determins when a character will start aggression**
 
-**checks**
+**checks:**
+
 1. Compare characters [renown](#Renown) vs enemy's [renown](#Renown) *don't forget the note written below this list*
 2. Compare odds between two [groups](#Group-Stats) 
 3. Check [moral](#Moral)

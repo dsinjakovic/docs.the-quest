@@ -11,16 +11,28 @@ In game we are running into a couple of problems, first is this event should be 
 Aggressive creature: [Skinwalker](#skinwalker)
 
 Checks (event can initiate): 
+
 + Must be night (not dusk or dawn, pitch black night)
 + There must be a dark spot on the map able to hide a skinwalker
 + Behaviour changes based on whether its happening in [wilderness](map#wilderness) ([forest](map#forest)) or [city](map#city).
 + Can only happen in [forest](map#forest) biome
 + Character muss whistle
 
-
-
 Scenario: Player is walking in the town at night and he uses his [whistle emote](./gameplay#emotes). After the emote is done, and before the music fades back in, the distant whistle is heard and a visual notes indicating that the whistle is coming from the dark. A [perceptive](gameplay#perception) player might even see two icey blue eyes staring in the dark. Since player is in lit up city and there isn't much dark, the skinwalker won't initiate the combat or show itself. However, if player walks towards the skinwalker, a low inhuman growl will be heard from the spot. And if player comes close enough, the skinwalker will jump out and ambush the player. 
 However, if player walks away from the skinwalker, over the next 3-5 days the frequency of whistles, which will intensifiy into inhuman growls as days pass will increass, until one day player will get attacked by the skinwalker. 
+
+### Dino hatchlings
+**must be reformated**
+Because IF there were my children in the game, you could have a hatching day where once a year they come out of the dirt. My kiddos layed eggs like sea turtles where they pooped a billion of them underground then fricked off. So it would be freaking cute if you had an event where the towns people gathered around to watch the 8000000 baby kiddos dig out of the dirt and run to the forest
+
+### Christmas
+to-do
+
+### Easter
+to-do
+
+### Halloween
+to-do
 
 ## Creatures
 
