@@ -9,7 +9,6 @@ The game takes inspiration from some amazing games such as: Project Zomboid, Leg
     I'll keep updating the documentation with relavent information as they come up. 
 
 The documentation will cover following topcis: 
-
 + [Gameplay](gameplay)
 + [Combat](gameplay#Combat)
 + [AI](gameplay#AI)

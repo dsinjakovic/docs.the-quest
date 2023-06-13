@@ -44,6 +44,17 @@ To-do
 AI seems like a really complicated topic, especially with the range I want it to have. 
 [NPC-Controller](#NPC-Controller) and [Player-Controller](#Player-Controller) should both control the same entity. When executed correct it will allow player to take control of any entity. 
 
+Should npc remember player actions and actions of other npcs in their surrouding/groups. It might be too complex, but it could also be used to let a characfter form an opinion on people in its proximity. 
+Now the question is how do you make an npc react to this in organic and natural way. chatGPT is of course a great tool that would be amazing to be used here, but does it have to be used? Can it be done on its own without a third party software. 
+Something along the line of following scenarion: 
+A paladin joined a player who up until that moment only did things paladin agrees with. Defended poor, defeated unholy creatures, etc. 
+But now the player finds itself in a situation where he can kill a young group of monks in training, but it'll prevent one of them becoming a prophetised tyrann that will ruin the world. 
+Paladin belives in good and nothing else, so the act of murdering 10 people just for a chance that the one person might be evil is against his ideals. The player commits the deed, and paladin as a group member just stands there watching it happen. It would be hard detecting what a player would do in such a situation before it happens, so we'll act on it in following idea. 
+Player swings the sword and hits the innocent. The paladin yells "STOP!". This is his first retaliation. Next time a player swings the sword and kills a couple of monks, the paladin will move in front of player, and say a generic line, "I won't stand for this." If player lowers the aggression, by sheeting the sword and not attacking the monks any further, the paladin will be displeased (some sort of moral debuf that will go down with time, but can never be removed.) So if player tries to kill another good monk in next year of their advanture together, the paladin will leave or retaliate in some other way. 
+
+So I think I need to sumarize the notes that should be extended to be able to think clearly about this idea. 
+
+
 ## Stats
 
 ### Moral
