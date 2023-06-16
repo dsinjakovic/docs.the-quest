@@ -11,27 +11,29 @@ to-do
 ### Player-Controller
 
 **Speed and direction**
+
 pressing WASD determins direction a player is taking. This will be stored in a Vector3 variable called **direction**
 Determining the full Vector3 (direction and speed) we'll be done by taking the direction and multiplying it with **speed_multi**
 **speed_multi** is a simple number gotten by multiplying speed (**walk_speed** or **run_speed** or **sprint_speed**) and **speed_buff** and **speed_debuff**
 
 **Walk-Run-Sprint button logic.**
+
 Now onto the fun part. Button logic. For some reason I was having real difficulties with this one. Its relatively simple. 
 Pressing the **sprint button** will trigger a function **Sprint_btn()** which'll follow following logic:
 
 ```
 Sprint_btn():
-    if !sprint_btn_running:
-        sprint_btn_running != sprint_btn_running
-        if Input.is_action_just_pressed('move_sprint'):
-            await get_tree().create_timer(0.2).timeout
-            if Input.is_action_pressed('move_sprint'):
+    if !sprint_btn_running: # make sure function is not already running
+        sprint_btn_running != sprint_btn_running 
+        if Input.is_action_just_pressed('move_sprint'): # if sprint is just pressed
+            await get_tree().create_timer(0.2).timeout # wait 0.2 secs
+            if Input.is_action_pressed('move_sprint'): # if sprint is still held do sprint speed
                 speed_mutli = sprint_speed * speed_buff * speed_debuff
-            elseif running:
+            elseif running: # otherwise if player was running set him to walk
                 speed_multi = walk_speed * speed_buff * speed_debuff
-            else:
+            else: # else player should walk
                 speed_multi = run_speed * speed_buff * speed_debuff
-        sprint_btn_running != sprint_btn_running
+        sprint_btn_running != sprint_btn_running # set variable back to false so function can be rerun
         
 ```
 
