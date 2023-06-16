@@ -10,6 +10,31 @@ to-do
 
 ### Player-Controller
 
+**Speed and direction**
+pressing WASD determins direction a player is taking. This will be stored in a Vector3 variable called **direction**
+Determining the full Vector3 (direction and speed) we'll be done by taking the direction and multiplying it with **speed_multi**
+**speed_multi** is a simple number gotten by multiplying speed (**walk_speed** or **run_speed** or **sprint_speed**) and **speed_buff** and **speed_debuff**
+
+**Walk-Run-Sprint button logic.**
+Now onto the fun part. Button logic. For some reason I was having real difficulties with this one. Its relatively simple. 
+Pressing the **sprint button** will trigger a function **Sprint_btn()** which'll follow following logic:
+
+```
+Sprint_btn():
+    if !sprint_btn_running:
+        sprint_btn_running != sprint_btn_running
+        if Input.is_action_just_pressed('move_sprint'):
+            await get_tree().create_timer(0.2).timeout
+            if Input.is_action_pressed('move_sprint'):
+                speed_mutli = sprint_speed * speed_buff * speed_debuff
+            elseif running:
+                speed_multi = walk_speed * speed_buff * speed_debuff
+            else:
+                speed_multi = run_speed * speed_buff * speed_debuff
+        sprint_btn_running != sprint_btn_running
+        
+```
+
 to-do
 #### Emotes
 
@@ -88,6 +113,12 @@ e.g: Determining if the npc will attack: First check npcs [moral](#Moral) (how a
     If characters renown is higher than enemies, but for some reason moral is lowered, they'll show aggression, without acting on it. If the enemy reacts to the aggression (e.g Player attacks although the character would not have acted on the aggression, it will be as if a player attacked an innocent aka a bad deed)
 
 
+## Creatures
+
+### Wolves
+
+Wolves should hunt on stamina. Meaning they try to exhaust their targets. 
+The way it would work against deers is that deers are faster, but wolves would try to stay on their sence, buz one thing they'll be able to catch are babies so you get alpha deers defending. And deers should get more aggressive if its mating season. Harry explianed it really good
 
 ## Groups
 

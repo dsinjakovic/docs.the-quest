@@ -1,5 +1,19 @@
 # Lore 
 
+## Religion
+
+### Gods
+
+Nature/arewolves
+
+You're saying our beloved Jhebbal Sag is a demonic God? Nonsense! Is the wolf evil because it hunts elk for food? The crocodile evil because it rolls it's prey to shreds? The rat evil because it spreads sickness and disease? 
+
+Of course not, these things are either in their nature or a byproduct of it entirely. Jhebbal was once the God of men and animals because men were once no better than animals, they were savages and as such spoke the language of the animals.
+
+Savagery, survival, bloodlust, the hunt - these are necessary things to keep the wilderness from killing you. Lycanthropy is a gift, a bridge between man and beast. Fixing what was lost.
+
+All praise our beloved Scorpion-Eagle-Kitty
+
 ## Events
 Random events are one of the things that make the game world feel full and exciting. When a player doesn't know what's awaiting him behind the corner it builds suspense and excitment, unsure of what will happen. Down bellow we'll go through couple of such events which will be backed by superstitions found in our own world and we'll do our best to explain them in detail. 
 
