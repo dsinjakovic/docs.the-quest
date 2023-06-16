@@ -23,17 +23,24 @@ Pressing the **sprint button** will trigger a function **Sprint_btn()** which'll
 
 ```
 Sprint_btn():
-    if !sprint_btn_running: # make sure function is not already running
+    # make sure function is not already running
+    if !sprint_btn_running: 
         sprint_btn_running != sprint_btn_running 
-        if Input.is_action_just_pressed('move_sprint'): # if sprint is just pressed
-            await get_tree().create_timer(0.2).timeout # wait 0.2 secs
-            if Input.is_action_pressed('move_sprint'): # if sprint is still held do sprint speed
+        # if sprint is just pressed
+        if Input.is_action_just_pressed('move_sprint'): 
+            # wait 0.2 secs
+            await get_tree().create_timer(0.2).timeout
+            # if sprint is still held do sprint speed 
+            if Input.is_action_pressed('move_sprint'): 
                 speed_mutli = sprint_speed * speed_buff * speed_debuff
-            elseif running: # otherwise if player was running set him to walk
+            # otherwise if player was running set him to walk
+            elseif running: 
                 speed_multi = walk_speed * speed_buff * speed_debuff
-            else: # else player should walk
+            # else player should walk
+            else: 
                 speed_multi = run_speed * speed_buff * speed_debuff
-        sprint_btn_running != sprint_btn_running # set variable back to false so function can be rerun
+        # set variable back to false so function can be rerun
+        sprint_btn_running != sprint_btn_running 
         
 ```
 
