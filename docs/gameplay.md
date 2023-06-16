@@ -4,9 +4,17 @@
 
 This category covers varius game mechanics such as player controller, building system, as well as some ideas for combat like i-frames, hitboxes and hurtboxes, etc. 
 
-### NPC-Controller
+## Character
+A **Character** is any player or AI controlled entity that can be found in the world of quest. I'm defining it for easier definitions of some other entitys and elements found in the game.
+It consist of a visual instance called [a model](#Model), [a controller](#npc-controller) and some [helper elements](#helper-elements). It was important to clarify these elements as each of them has it's own block code that will run individual functions, while the character will combine them together. This will alow for modular system that we'll allow for quick and easy building of characters.
 
-to-do
+### Model
+Visual instance of a character. 
+
+Consist primarily of a meshe, collision shape and an animation player. 
+
+### NPC-Controller
+TO-DOOOOO :)
 
 ### Player-Controller
 
@@ -27,24 +35,31 @@ Sprint_btn():
     if !sprint_btn_running: 
         sprint_btn_running != sprint_btn_running 
         # if sprint is just pressed
-        if Input.is_action_just_pressed('move_sprint'): 
-            # wait 0.2 secs
-            await get_tree().create_timer(0.2).timeout
-            # if sprint is still held do sprint speed 
-            if Input.is_action_pressed('move_sprint'): 
-                speed_mutli = sprint_speed * speed_buff * speed_debuff
-            # otherwise if player was running set him to walk
-            elseif running: 
-                speed_multi = walk_speed * speed_buff * speed_debuff
-            # else player should walk
-            else: 
-                speed_multi = run_speed * speed_buff * speed_debuff
+        # wait 0.2 secs
+        await get_tree().create_timer(0.2).timeout
+        # if sprint is still held do sprint speed 
+        if Input.is_action_pressed('move_sprint'): 
+            speed_mutli = sprint_speed * speed_buff * speed_debuff
+        # otherwise if player was running set him to walk
+        elseif running: 
+            speed_multi = walk_speed * speed_buff * speed_debuff
+        # else player should walk
+        else: 
+            speed_multi = run_speed * speed_buff * speed_debuff
         # set variable back to false so function can be rerun
         sprint_btn_running != sprint_btn_running 
         
 ```
 
-to-do
+### Helper Elements
+This are invisible elements found on characters:
+
+-   vision cone
+-   sound radius
+-   smell radius
+-   etc.
+
+
 #### Emotes
 
 **Whistling** - emote for whisling. Have a stat check if a player can whistle or not. Whistling should slowly fade out in-game music and replace it with the players whistle. Visually there would be a couple of notes above players head, indicating he's whistling. If this is done at night it can trigger [whistle event](lore#whistling-at-night)
