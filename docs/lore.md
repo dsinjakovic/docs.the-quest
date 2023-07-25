@@ -57,3 +57,21 @@ to-do
 ### Vampires
 
 The 
+
+## Professions
+
+    Craftsmen, etc.
+
+### Craftmanship. 
+Start early age, learn the craft. Get promoted to journeyman - roam the lands perfecting the craft. 
+Make a masterpiece and open a shop and clal yourself a master
+
+## Items
+
+### Misc
+
+**Arena games** yearly arena tournament
+
+**Chain rails** for prisoners. inside prisons there are chains attached to most wanted criminals and they can only move along the rail. In ground metal rail that chain is connected to. 
+
+**Death wishtle** whistle that sounds like people or animals screaming
